@@ -1,10 +1,10 @@
 # GeometryGuru
-This is my first project in C#. This project includes geometry operators.
+Bu mening c# dagi birinchi proyektim. Bu proekt geometrik , arifmetik amallarni bajarish uchun!
 
-![описание](/images/image-geometry.avif)
+![photo](/images/image-geometry.avif)
 
 # GeometryGuru */+-
-## arifmetik amallardan foydalanamiz
+## Arifmetik amallardan foydalanamiz
 
 *masalan*
 
@@ -13,5 +13,5 @@ This is my first project in C#. This project includes geometry operators.
 - qo'shish
 - ayirish
 
-** Manba : [Github](https://github.com/is1omzhon/GeometryGuru)
+Manba : [Github](https://github.com/is1omzhon/GeometryGuru)
 
