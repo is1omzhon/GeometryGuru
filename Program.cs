@@ -40,4 +40,4 @@ double h = Convert.ToDouble(height);
 const double pi = 3.14;
 
 double V = pi * Math.Pow(R,2) * h;
-Console.WriteLine($"Silindrning hajmi {V} ga teng");
+Console.WriteLine($"V = pi * R^2 * h = {V} ");

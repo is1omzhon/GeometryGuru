@@ -1,11 +1,10 @@
 # GeometryGuru
-Bu mening c# dagi birinchi proyektim. Bu proekt geometrik , arifmetik amallarni bajarish uchun!
+### Bu mening c# dagi birinchi proyektim. Bu proekt geometrik , arifmetik amallarni bajarish uchun! Foydalanuvchidan kerakli sonlarni kiritish va kerakli formulani tanlash talab qilinadi va programma hisoblab beradi. 
+
+
 ![programma](/images/Анимация2.gif)
 
 
-![photo](/images/image-geometry.avif)
-
-# GeometryGuru */+-
 ## Arifmetik amallardan foydalanamiz
 
 *masalan*
@@ -14,6 +13,8 @@ Bu mening c# dagi birinchi proyektim. Bu proekt geometrik , arifmetik amallarni 
 - bo'lish
 - qo'shish
 - ayirish
+
+![photo](/images/misol.png)
 
 Manba : [Github](https://github.com/is1omzhon/GeometryGuru)
 
