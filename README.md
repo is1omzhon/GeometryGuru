@@ -1,6 +1,6 @@
 # GeometryGuru
 Bu mening c# dagi birinchi proyektim. Bu proekt geometrik , arifmetik amallarni bajarish uchun!
-![programma](/images/Анимация.gif)
+![programma](/images/Анимация2.gif)
 
 
 ![photo](/images/image-geometry.avif)
