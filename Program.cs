@@ -1,45 +1,43 @@
-﻿Console.WriteLine("Bu arifmetik amallarini bajarish uchun programma");
+﻿/*
+Console.WriteLine("Bu arifmetik amallarini bajarish uchun programma");
 Console.WriteLine("Ishbu programmani ishlatish uchun sonlarni va amallarni kiritishingiz kk buladi");
 
 Console.WriteLine("Birinchi son: ");
-decimal userNum1 = Convert.ToDecimal(Console.ReadLine());
+string str = Console.ReadLine();
+decimal userNum1 = Convert.ToDecimal(str);
 
 Console.WriteLine("Ikkinchi son: ");  
-decimal userNum2 = Convert.ToDecimal(Console.ReadLine());
+string str2 = Console.ReadLine();
+decimal userNum2 = Convert.ToDecimal(str2);
 
-Console.WriteLine("Operator (+, -, *, /): ");
-string oper = Console.ReadLine(); 
+// Console.WriteLine("Operator (+, -, *, /): ");
+// string oper = Console.ReadLine(); 
 
-decimal result;
+Console.WriteLine("Qo'shuv amali: ");
+Console.WriteLine(userNum1 + userNum2);
 
-if (oper == "*")  
-{
-    result = userNum1 * userNum2;
-    Console.WriteLine($"Natija: {userNum1} * {userNum2} = {result}");
-}
-else if (oper == "+")
-{
-    result = userNum1 + userNum2;
-    Console.WriteLine($"Natija: {userNum1} + {userNum2} = {result}");
-}
-else if (oper == "-")
-{
-    result = userNum1 - userNum2;
-    Console.WriteLine($"Natija: {userNum1} - {userNum2} = {result}");
-}
-else if (oper == "/")
-{
-    if (userNum2 != 0)
-    {
-        result = userNum1 / userNum2;
-        Console.WriteLine($"Natija: {userNum1} / {userNum2} = {result}");
-    }
-    else
-    {
-        Console.WriteLine("Xato: Nolga bo'lish mumkin emas!");
-    }
-}
-else
-{
-    Console.WriteLine("Xato: Noto'g'ri operator!");
-}
+Console.WriteLine("Ayiruv amali: ");
+Console.WriteLine(userNum1 - userNum2);
+
+Console.WriteLine("Ko'paytirish amali: ");
+Console.WriteLine(userNum1 * userNum2);
+
+Console.WriteLine("Bo'luv amali: ");
+Console.WriteLine(userNum1 / userNum2);
+*/
+
+
+Console.WriteLine("Xush kelibsiz!! Silindrni hajmini topish uchun quydagilarni kiriting");
+
+Console.WriteLine("Radius :");
+string radius = Console.ReadLine();
+double R = Convert.ToDouble(radius);
+
+Console.WriteLine("Balandlik :");
+string height = Console.ReadLine();
+double h = Convert.ToDouble(height);
+
+const double pi = 3.14;
+
+double V = pi * Math.Pow(R,2) * h;
+Console.WriteLine($"Silindrning hajmi {V} ga teng");
