@@ -59,8 +59,7 @@ switch (userInput)
             string userChoice = Console.ReadLine();
             decimal userChoiceFormul = Convert.ToDecimal(userChoice);
 
-            // nested switch, yani switch ichida yana switch
-            // birinchi svitch arifmetik amal tanlash uchun, ichidagisi formula tanlash uchun
+            // Geometrik formulalar menyusi (nested switch)
             switch (userChoiceFormul)
             {
                 //Kvadrat Yuzasi
