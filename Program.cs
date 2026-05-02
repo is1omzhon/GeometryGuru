@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("\n Bizning GeometryGuru loyihamizga xush kelibsiz,\nBizni loyihamizda ikki amal ishlatish imkoni bor.\n1 Arifmetik  2 Geometrik. \n Amallardan birini tanleng: ");
 
-//user bizga string kiritadi va biz uni 
+//user bizga string kiritadi va biz uni intga aylantiramiz
 string str = Console.ReadLine();
 int userInput = Convert.ToInt32(str);
 
